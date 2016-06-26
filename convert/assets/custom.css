@@ -1,0 +1,12 @@
+text {
+    font-family: 'Ubuntu', 'Verdana', 'Yu Gothic', 'YuGothic', Meiryo, sans-serif;
+}
+
+.actor {
+    stroke: #aaa;
+    fill: #eee;
+}
+.actor-line {
+    stroke: #aaa;
+    stroke-width: 3px;
+}

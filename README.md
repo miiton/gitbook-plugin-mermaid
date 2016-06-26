@@ -1,3 +1,5 @@
+日本語PDF対応フォーク
+
 ## Mermaid plugin for GitBook 
 [![Build Status](https://travis-ci.org/JozoVilcek/gitbook-plugin-mermaid.svg?branch=master)](https://travis-ci.org/JozoVilcek/gitbook-plugin-mermaid)
 [![NPM version](https://badge.fury.io/js/gitbook-plugin-mermaid.svg)](http://badge.fury.io/js/gitbook-plugin-mermaid)
@@ -9,7 +11,15 @@ Plugin for [GitBook](https://github.com/GitbookIO/gitbook) which renders [Mermai
 You can use install via **NPM**:
 
 ```
-$ npm install gitbook-plugin-mermaid
+$ npm install "miiton/gitbook-plugin-mermaid#pdfja"
+```
+
+package.json
+
+```
+"dependencies": {
+    "gitbook-plugin-mermaid": "miiton/gitbook-plugin-mermaid#pdfja"
+}
 ```
 
 And use it for your book with in the book.json:
